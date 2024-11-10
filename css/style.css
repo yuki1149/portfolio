@@ -108,8 +108,7 @@ main {
             bottom: 17px;
             color: #2B2B2B;
             font-size: 14px;
-            font-family: 'Josefin Sans', sans-serif;
-            letter-spacing: .2em;
+            letter-spacing: 0.8px;
             writing-mode: vertical-rl;
             text-decoration: none;
             text-transform: uppercase;
@@ -243,7 +242,8 @@ footer {
         }
 
         .profile{
-            padding: 128px 24px 64px;
+            padding: 128px 24px 0;
+            margin-bottom: 40px;
         }
     }
 
